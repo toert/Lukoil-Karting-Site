@@ -1,0 +1,27 @@
+.navbar {
+	padding-top: 10px;
+	background-color: white;
+	color: black;
+	height: 70px;
+	margin-bottom: 0px;
+}
+
+.navbar-brand {
+	padding-top: 0;
+}
+
+.carousel-inner > .first-header {
+	background-image: url("http://www.corsaracingkart.com/download/wall1600.jpg");
+	background-position: 50% 60%;
+	background-repeat: no-repeat;
+	background-color: white;
+     }
+.carousel-caption {
+	position: absolute;
+    top: 30%;
+}
+
+.navbar-collapse { 
+	background: white;  
+	color: black;
+} 
