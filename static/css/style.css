@@ -1,3 +1,9 @@
+body {
+	font-family: 'Roboto', sans-serif !important;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 .navbar {
 	padding-top: 10px;
 	background-color: white;
@@ -15,6 +21,7 @@
 	background-position: 50% 60%;
 	background-repeat: no-repeat;
 	background-color: white;
+	background-size:cover; 
      }
 .carousel-caption {
 	position: absolute;
@@ -25,3 +32,40 @@
 	background: white;  
 	color: black;
 } 
+
+.after-nav {
+	margin-top: 90px;
+}
+
+.image-news {
+	max-height: 320px;
+	max-width: 100%;
+}
+
+.img-partner {
+	max-width: 500px;
+}
+
+ul.pagination > li > span {
+	color: black;
+}
+
+ul.pagination > li > a {
+	color: #c2534f;
+}
+
+ul.pagination > li > a:hover, a:focus {
+	color: #a2534f;
+}
+
+ul.pagination > li.active > span {
+	background-color: #d9534f;
+	border-color: #d9534f;
+	color: black;
+}
+
+ul.pagination > li.active > span:hover, span:focus {
+	background-color: #c2534f;
+	border-color: #c2534f;
+	color: black;
+}
